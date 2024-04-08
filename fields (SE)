@@ -1,0 +1,301 @@
+{
+  "testtestMessage": {
+    "label": "Send test default message",
+    "group": "Test messages",
+    "type": "button"
+  },
+    "testMessageLong": {
+    "label": "Send long message (as follower)",
+    "group": "Test messages",
+    "type": "button"
+  },
+     "testMessageVip": {
+    "label": "Send test VIP message",
+    "group": "Test messages",
+    "type": "button"
+  },
+    "testMessageMod": {
+    "label": "Send test Mod message",
+    "group": "Test messages",
+    "type": "button"
+  },
+     "testMessageSub": {
+    "label": "Send test sub message",
+    "group": "Test messages",
+    "type": "button"
+  },
+  "alignMessages": {
+    "label": "Align Messages",
+    "type": "dropdown",
+    "value": "bottom",
+    "options": {
+      "bottom": "Bottom",
+      "top": "Top"
+    },
+    "group": "Messages settings"
+  },
+   "msgHideOpt": {
+        "label": "Hide message after some time",
+        "type": "checkbox",
+        "group": "Messages settings",
+        "value": false
+    },
+  "msgHide": {
+        "type": "number",
+        "label": "Messages hide time in seconds",
+        "value": 7,
+        "step": 1,
+        "group": "Messages settings"
+    },
+  "msgFade": {
+    "label": "Old messages fading",
+    "group": "Messages settings",
+    "type": "checkbox"
+  }, 
+  "msgLimit": {
+    "label": "Messages limit",
+    "group": "Messages settings",
+    "type": "checkbox"
+  }, 
+   "msgLimitAmount": {
+        "type": "number",
+        "label": "Messages limit amount",
+        "value": 7,
+        "step": 1,
+        "group": "Messages settings"
+    },
+    "msgConnect": {
+    "label": "Connect messages from the same user (only for bottom align)",
+    "group": "Messages settings",
+    "type": "checkbox"
+  }, 
+   "noborder": {
+        "label": "No border",
+        "type": "checkbox",
+        "value": true,
+      "group": "Messages settings"
+    },
+   "noback": {
+        "label": "Minimal version (no border/background)",
+        "type": "checkbox",
+        "value": true,
+      "group": "Messages settings"
+    },
+    "pronouns": {
+    "type": "checkbox",
+    "label": "Enable pronouns",
+    "value": false,
+    "group": "Messages settings"
+  },
+     "largeEmotes": {
+    "label": "Large emotes on",
+    "type": "dropdown",
+    "value": "on",
+    "options": {
+      "on": "On",
+      "off": "Off"
+    },
+    "group": "Messages settings"
+  },
+  "badgesDisplay": {
+        "label": "Show badges",
+        "type": "checkbox",
+        "value": true,
+        "group": "Messages settings"
+    },
+        "custombadges": {
+        "label": "Custom badges",
+        "type": "checkbox",
+        "value": true,
+        "group": "Messages settings"
+    },
+  "boxborder": {
+        "label": "Main color 1",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+      "group": "Messages settings"
+    },
+    "iconscol": {
+        "label": "Main color 2",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+      "group": "Messages settings"
+    },  
+  "backcolor": {
+        "label": "Message background color 1",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+      "group": "Messages settings"
+    },
+    "backcolor2": {
+        "label": "Message background color 2",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+      "group": "Messages settings"
+    },
+      "textcolor": {
+        "label": "Text color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+      "group": "Messages settings"
+    },
+  "namescolor": {
+        "label": "Names color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+      "group": "Messages settings"
+    },
+  "text4553": {
+    "label": "-- Paste in fontname from cdnfonts --",
+    "group": "Text settings",
+    "type": "hidden"
+  },
+  "customFontNames": {
+    "label": "Custom Font for names (cdnfonts)",
+    "group": "Text settings",
+    "type": "text",
+    "value": ""
+  },
+    "customFontMsgs": {
+    "label": "Custom Font for messages (cdnfonts)",
+    "group": "Text settings",
+    "type": "text",
+    "value": ""
+  },
+    "namesFont": {
+        "label": "Google font for names",
+        "type": "googleFont",
+        "value": "Poppins",
+      "group": "Text settings"
+    },
+  "msgFont": {
+        "label": "Google font for messsages",
+        "type": "googleFont",
+        "value": "Poppins",
+      "group": "Text settings"
+    },
+    "namesBold": {
+        "label": "Names font weight",
+        "type": "dropdown",
+        "options": {
+            "300": "Thin",
+            "400": "Regular",
+            "500": "Medium",
+            "600": "Semibold",
+            "700": "Bold"
+        },
+        "value": "400",
+      "group": "Text settings"
+    },
+    "msgBold": {
+        "label": "Message font weight",
+        "type": "dropdown",
+        "options": {
+            "300": "Thin",
+            "400": "Regular",
+            "500": "Medium",
+            "600": "Semibold",
+            "700": "Bold"
+        },
+        "value": "400",
+      "group": "Text settings"
+    },
+    "msgSize": {
+        "type": "number",
+        "label": "Messages font size",
+        "value": 18,
+        "steps": 1,
+      "group": "Text settings"
+    },
+    "namesSize": {
+        "type": "number",
+        "label": "Names font size",
+        "value": 18,
+        "step": 1,
+      "group": "Text settings"
+    },
+     "alertson": {
+    "type": "checkbox",
+    "label": "Enable alerts",
+    "value": false,
+    "group": "Alerts"
+  },
+     "text5": {
+    "label": "-- If alerts on --",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+   "alertsback": {
+        "type": "colorpicker",
+        "label": "Alerts box color",
+      "group": "Alerts"
+    },
+   "alertsback2": {
+        "type": "colorpicker",
+        "label": "Alerts box color 2",
+      "group": "Alerts"
+    },
+     "alertstext": {
+        "type": "colorpicker",
+        "label": "Alerts text color",
+      "group": "Alerts"
+    },
+  "text51": {
+    "label": " ",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+  "alertsfollower": {
+    "type": "checkbox",
+    "label": "Enable alerts for followers",
+    "value": false,
+    "group": "Alerts"
+  },
+    "alertssub": {
+    "type": "checkbox",
+    "label": "Enable alerts for subscribers",
+    "value": false,
+    "group": "Alerts"
+  },
+    "alertsdonation": {
+    "type": "checkbox",
+    "label": "Enable alerts for donations",
+    "value": false,
+    "group": "Alerts"
+  },
+    "alertsbits": {
+    "type": "checkbox",
+    "label": "Enable alerts for cheers",
+    "value": false,
+    "group": "Alerts"
+  },
+    "text52": {
+    "label": "-- Test alerts with EMULATE --",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+  "hideCommands": {
+    "label": "Hide messages with ! (commands)",
+    "type": "dropdown",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "group": "Settings"
+  },  
+  "ignoredUsers": {
+    "label": "Ignored users (comma separated)",
+    "type": "text",
+    "value": "StreamElements,OtherBot",
+    "group": "Settings"
+  },
+    "widgetName":{
+    "type":"hidden",
+   "value":"Celestial chat widget"
+  },
+  "widgetAuthor":{
+    "type":"hidden",
+    "value":"Milaeshop"
+  }
+}
